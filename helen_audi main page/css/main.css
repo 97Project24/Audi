@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav */
+header {
+    margin: 0;
+}
+.audi_nav{
+    padding: 25px; 
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+
+    display: inline-block;
+}
+
+.audi_menu_list {
+    display: inline-block; 
+    list-style: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+/* banner */
+.banner_img {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.banner_content {
+    position: absolute;
+    top: 20%;
+    left: 70px;
+}
+
+.banner_content h1{
+    color: #fff;
+    font-size: 55px;
+}
+
+.banner_content button {
+    padding: 20px 20px;
+    margin-top: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+/* banner_footer */
+.banner_footer {
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #4c4c4c;
+}
+
+.search_title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 60px;
+}
+
+/* audi_object */
+.audi_object {
+    display: flex;
+    padding: 190px 190px 30px;
+}
+
+.audi_car img{
+    width: 700px;
+}
+
+.audi_car_content {
+    padding: 220px 40px;
+}
+
+.audi_car_content span {
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+.audi_car_content p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.audi_car_content span, p {
+    letter-spacing: -0.015em;
+}
+
+.audi_car_content button {
+    padding: 20px 40px;
+    margin-top: 60px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+/* audi_service_info */
+.service_title {
+    margin-top: 200px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.service_title p {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.audi_service_info {
+    display: inline-block;
+
+    width: 520px;
+    height: 400px; 
+
+    padding-left: 60px;
+}
+
+.service_img img {
+    width: 450px;
+}
+
+/* audi_sns@audi korea */
+.audi_sns_title{
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.audi_sns_title p {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.audi_sns {
+    display: inline-block;
+
+    width: 520px;
+    height: 400px; 
+
+    padding-left: 60px;
+}
+
+.sns_img img{
+    width: 450px;
+}
+
+.sns_content{
+    width: 450px;
+    height: 320px;
+    background-color: #f2f2f2;
+    margin-bottom: 100px;
+}
+.content_title {
+    padding: 20px;
+}
+.content_title p {
+    font-size: 26px;
+    font-weight: bold;
+}
+.content_tag {
+    padding: 20px;
+}
+.content_tag p {
+    font-size: 19px;
+}
+
+.content_date{
+    padding: 20px;
+    margin-top: 70px;
+}
+.content_date p {
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer_info {
+    width: 100%;
+    height: 250px;
+    margin-top: 250px;
+    background-color: #000;
+    color: #fff;
+}
+
+.main_info {
+    padding: 50px;
+}
+
+.main_info span{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.audi_info{
+    padding-left: 50px;
+}
